@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>First form</title>
+</head>
+<body>
+  <form action="#" class="form">
+    <div class="container">
+      <h1>Join us!</h1>
+      <select name="documents" id="documents">
+        <option value="dni">DNI</option>
+        <option value="pasport">Passport</option>
+        <option value="foreigner">Foreign card</option>
+      </select><br>
+      <div class="names-container">
+        <div class="form-item inline">
+          <input type="text" id="first_name" name="first_name" autocomplete="off" required>
+          <label for="first_name" class="label-name">
+            <span class="content-name">First name</span>
+          </label>
+        </div>
+        <div class="form-item inline" style="margin-left: 10px;">
+          <input type="text" id="last_name" name="last_name" autocomplete="off" required>
+          <label for="last_name" class="label-name">
+            <span class="content-name">Last name</span>
+          </label><br>
+        </div><br>
+      </div>
+      <div class="gender-container">
+        <h3>Gender</h3>  
+        <div class="container-radios">
+          <ul>
+            <li>
+              <input type="radio" id="gendermasc" name="gender">
+              <label for="gendermasc">Masculine</label>
+              <div class="check"></div>
+            </li>
+            <li>
+              <input type="radio" id="genderfem" name="gender">
+              <label for="genderfem">Femenine</label><br>
+              <div class="check"><div class="inside"></div></div>
+            </li>
+          </ul>
+      </div><br><br>
+      <div class="text-container">
+        <h3>Why do you want to join us?</h3>
+        <textarea type="text" id="description" name="description" placeholder="As a software engineer..."></textarea><br>
+      </div>
+      <button class="btn" type="submit">Apply now</button>
+    </div>
+  </form>
+</body>
+</html>

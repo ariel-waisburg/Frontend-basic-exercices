@@ -1,0 +1,44 @@
+body {
+  margin: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 415px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border-left: 15px solid rgb(236, 185, 206);
+  box-shadow: 2px 2px 15px rgb(197, 197, 197);
+}
+
+.education-type {
+  opacity: 0.5;
+}
+
+h1 {
+  color: rgb(236, 185, 206);
+  font-weight: bold;
+}
+
+
+.avatar-description {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  flex-grow: 0;
+}
+
+.teacher-description {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 16px;
+}

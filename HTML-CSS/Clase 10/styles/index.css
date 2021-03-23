@@ -1,0 +1,48 @@
+.blogs {
+  margin: 20px;
+  width: 90%;
+}
+
+.blog {
+  border-radius: 5px;
+  padding: 180px 0 20px 20px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog h3 {
+  color: white;
+  margin: 0;
+}
+
+.blog p {
+  color: white;
+  opacity: 0.7;
+  margin: 0;
+  white-space: nowrap;
+}
+
+#blog-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/47/04/3/iStock_83805537_MEDIUM_91_623x623.jpg");
+}
+
+#blog-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/47/04/7/iStock_77981093_MEDIUM_91_623x623.jpg");
+}
+
+#blog-3 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/47/05/1/iStock_89669089_MEDIUM_91_623x623.jpg");
+}
+
+#blog-4 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/47/05/5/iStock_67696937_MEDIUM_91_623x623.jpg");
+}
+
+#blog-5 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/47/05/7/iStock_94580877_MEDIUM_91_623x623.jpg");
+}
+
+#blog-6 {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://www.objetivobienestar.com/uploads/s1/10/41/79/8/aguacates-rellenos-de-atu-n_91_623x623.jpeg");
+}

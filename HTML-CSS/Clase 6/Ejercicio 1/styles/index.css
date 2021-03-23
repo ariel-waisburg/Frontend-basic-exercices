@@ -1,0 +1,18 @@
+.title-wrapper {
+  background-color: bisque;
+  width: 400px;
+}
+
+span {
+  color: rgb(210, 105, 34);
+}
+
+.subtitle-wrapper {
+  color: white;
+  background-color: darkgray;
+  width: 300px;
+}
+
+p {
+  width: 400px;
+}
