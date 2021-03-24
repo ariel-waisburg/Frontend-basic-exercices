@@ -8,41 +8,65 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Form</title>
 </head>
-<body>
-    <form action="#">
-      <div class="form-group mb-3">
+<body class="bg-light">
+    <form class="card-form bg-white" action="#">
+      <h1 class="mb-3">Tell us about you!</h1>
+      <div class="form-group col-12 mb-3">
         <label for="full_name">Full Name</label>
         <input id="full_name" type="text" name="full_name" class="form-control" placeholder="Pedro Ramirez" required minlength="8">
       </div>
-      <div class="form-group mb-3">
+      <div class="form-group col-12 mb-3">
         <label for="email">Email</label>
         <input id="email" type="email" name="email" class="form-control" placeholder="pedroramirez@rocketcode.com.ar" required minlength="12">
       </div>
-      <div class="form-group mb-3">
-        <label for="color">Pick your favourite color</label>
-        <select name="colors" id="colors" class="form-control">
-          <option value="red">Red</option>
-          <option value="red">Blue</option>
-          <option value="red">Black</option>
-          <option value="red">Green</option>
-          <option value="red">Yellow</option>
-          <option value="red">White</option>
-          <option value="red">Pink</option>
-          <option value="red">Orange</option>
-        </select>
+      <div class="form-group col-12 mb-3">
+        <label for="age">How old are you?</label>
+        <input id="age" type="number" name="age" class="form-control" placeholder="23" required>
       </div>
-      <div class="form-group mb-3">
-        <label for="adult">Are you of legal age?</label>
-        <label for="child">No</label>
-        <input id="child" type="radio" name="legal?" value="Yes">
-        <label for="child">Yes</label>
-        <input id="child" type="radio" name="legal?" value="Yes">
+
+      <div class="form-group col-12 mb-3">
+        <label for="field">What field do you work in?</label>
+        <input id="field" type="text" name="field" class="form-control" placeholder="Software Development" required>
       </div>
-      <div class="form-group mb-3">
-        <label for="number">Which is your favourite number?</label>
-        <input id="number" type="number" name="number" class="form-control" placeholder="3">
+      <div class="form-group col-12 mb-3 container-radios">
+        <label>What is the size of your organization?</label><br>
+        <ul>
+          <li>
+            <input id="small" type="radio" name="size" value="small">
+            <label for="small">1-15</label>
+            <div class="check"><div class="inside"></div></div>
+          </li>
+          <li>
+            <input id="medium" type="radio" name="size" value="medium">
+            <label for="medium">15-50</label>
+            <div class="check"><div class="inside"></div></div>
+          </li>
+          <li>
+            <input id="big" type="radio" name="size" value="big">
+            <label for="big">50-200</label>
+            <div class="check"><div class="inside"></div></div>
+          </li>
+          <li>
+            <input id="corporate" type="radio" name="size" value="corporate">
+            <label for="corporate">+200</label>
+            <div class="check"><div class="inside"></div></div>
+          </li>
+        </ul>
       </div>
-      <button type="button" class="btn btn-primary">Send</button>
+      <div class="form-group col-12 mb-3">
+        <label for="date">Which is your favourite day of the year?</label>
+        <input id="date" type="date" name="date" class="form-control">
+      </div>
+      <div class="form-group col-12 mb-3">
+        <label for="reason">Why is that one?</label>
+        <textarea id="reason" type="text" name="reason" class="form-control">Because I love meeting my whole family...</textarea>
+      </div>
+      <div class="form-group col-12 mb-3">
+        <label for="reason">Could you briefly describe your nuclear family?</label>
+        <textarea id="reason" type="text" name="reason" class="form-control">My father is an accountant and I enjoy...</textarea>
+      </div>
+
+      <button type="submit" class="btn btn-info mt-3">Let's go</button>
     </form>
 </body>
 </html>
